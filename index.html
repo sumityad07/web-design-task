@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind CSS Example</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+
+  <nav
+    class="bg-[#1A307A] flex flex-col md:flex-row justify-between items-center min-h-[55px] w-screen px-4 py-2 text-white space-y-4 md:space-y-0">
+
+    <!-- Left Section -->
+    <div
+      class="left_section flex flex-col md:flex-row justify-center items-center w-full md:w-2/3 gap-4 md:gap-6 text-center md:text-left">
+      <div class="flex items-center gap-2">
+        <img src="./images/fluent_call-20-filled.png" alt="call icon">
+        <p>+(111) 99_283_473</p>
+      </div>
+
+      <div class="hidden md:block border-l border-white h-6"></div>
+
+      <div class="flex items-center gap-2">
+        <img src="./images/mdi_email.png" alt="email icon">
+        <p>rtfinsurance@gmail.cm.</p>
+      </div>
+
+      <div class="hidden md:block border-l border-white h-6"></div>
+
+      <div class="flex items-center gap-2">
+        <img src="./images/Vector.png" alt="location icon">
+        <p>New York City, US</p>
+      </div>
+    </div>
+
+    <!-- Right Section -->
+    <div class="right_section flex justify-center md:justify-end items-center gap-4 w-full md:w-1/3 pr-0 md:pr-12">
+      <img src="./images/line-md_instagram.png" alt="Instagram logo">
+      <img src="./images/ri_facebook-fill.png" alt="Facebook logo">
+      <img src="./images/mdi_twitter.png" alt="Twitter logo">
+    </div>
+  </nav>
+
+  <!-- semi navbar -->
+  <div
+    class="main_div flex flex-col md:flex-row justify-between md:justify-evenly items-center bg-white h-auto md:h-[95px] w-screen px-4 py-4 gap-4 md:gap-0">
+
+    <!-- Logo -->
+    <div class="logo_div flex items-center">
+      <img src="./images/RTF-logo 1.png" alt="Logo">
+    </div>
+
+    <!-- Navigation Options -->
+    <div class="option_div hidden md:flex">
+      <ul class="flex justify-center items-center gap-6 text-black font-semibold text-[16px]">
+        <li>Home</li>
+        <li>Product</li>
+        <li>Elements</li>
+        <li>Blog</li>
+      </ul>
+    </div>
+
+    <!-- Buttons -->
+    <div class="btn_div flex justify-center items-center gap-4">
+      <button class="border-2 border-[#162C76] px-4 py-2 min-w-32">Login</button>
+      <button class="border-2 px-4 py-2 bg-[#051753] text-white min-w-32">Get a Quote</button>
+    </div>
+  </div>
+
+  <!-- main setion -->
+  <div class="main_div flex w-full h-full bg-[#003B9B] gap-20 px-4 md:px-8 py-12 flex-wrap md:flex-nowrap">
+    <!-- Left Text Block -->
+    <div class="font_div w-full md:w-1/3">
+      <div class="flex flex-col justify-center items-start h-full w-full space-y-6">
+        <h1 class="text-4xl md:text-6xl font-semibold text-white leading-tight">
+          Your Trusted <span class="text-orange-600">Insurance Partner</span>
+        </h1>
+        <p class="text-white text-xl">
+          Making insurance accessible, valuable. Your protection is our
+          <span class="text-orange-600">lifetime commitment</span>
+        </p>
+        <div class="flex w-full justify-start items-center gap-4 flex-wrap">
+          <button
+            class="flex items-center gap-2 px-4 py-2 bg-white border border-gray-300 rounded-md text-sm font-bold">
+            Explore products
+            <img src="images/solar_arrow-up-linear.png" alt="">
+          </button>
+          <button
+            class="flex items-center gap-2 px-4 py-2 bg-white border border-gray-300 rounded-md text-sm font-bold">
+            Learn more
+            <img src="images/solar_arrow-up-linear.png" alt="">
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Right Image Block -->
+    <div class="main_div_Image w-full md:w-2/3 flex justify-center">
+      <div class="image_div flex flex-col md:flex-row gap-6 items-center ">
+        <!-- Block 1 -->
+        <div class="text-center flex flex-col items-center  ">
+          <h2 class="w-[189px] h-[59px] text-white text-lg font-semibold mb-2 p-[2px] rounded-[12px] 
+                 border-[2px] bg-[linear-gradient(to_right,red,orange,yellow,green,blue,indigo,violet)] ">
+            <span class="block bg-[#3461aa] rounded-[12px] w-full h-full flex items-center justify-center">
+              Health Insurance
+            </span>
+          </h2>
+
+          <img class="w-[273px] h-[409px] rounded-[18px] py-8" src="images/young-couple-car-trip 1.png" alt="">
+        </div>
+
+        <!-- Block 2 -->
+        <div class="text-center flex flex-col items-center gap-2">
+
+          <img class="w-[273px] h-[409px] rounded-[18px] py-0"
+            src="images/portrait-pyramid-from-loving-family-sofa 1.png" alt="">
+          <h2 class="w-[189px] h-[59px] text-white text-lg font-semibold mb-2 p-[2px] rounded-[12px] 
+                 border-[2px] bg-[linear-gradient(to_right,red,orange,yellow,green,blue,indigo,violet)]">
+            <span class="block bg-[#3461aa] rounded-[12px] w-full h-full flex items-center justify-center">
+              Family Insurance
+            </span>
+          </h2>
+        </div>
+
+        <!-- Block 3 -->
+        <div class="text-center   flex flex-col items-center">
+          <h2 class="w-[189px] h-[59px] text-white text-lg font-semibold mb-2 p-[2px] rounded-[12px] 
+                 border-[2px] bg-[linear-gradient(to_right,red,orange,yellow,green,blue,indigo,violet)]">
+            <span class="block bg-[#3461aa] rounded-[12px] w-full h-full flex items-center justify-center">
+              Work Flexibility
+            </span>
+          </h2>
+
+          <img class="w-[273px] h-[409px] rounded-[18px] py-8" src="images/father-working-with-laptop 1.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- affilation-->
+  <div class="main_div flex flex-col items-center text-center w-full px-4 md:px-8 py-8 md:py-12 bg-white">
+    <div class="text_div text-xl md:text-2xl font-bold text-[#2140A4] mb-6">
+      Trusted by Leading Companies
+    </div>
+    <div class="logo_div">
+      <img src="images/Group 46.png" alt="Trusted company logos" class="max-w-full h-auto">
+    </div>
+  </div>
+
+  <!--SERVICES-->
+
+  <div class="maim_div flex flex-col justify-center text-center w-full bg-[#e3e8f9] ]">
+    <div
+      class="top_logo border-2 border-[#d2daf4] bg-[#d2daf4] rounded-xl w-48 flex flex-col justify-center items-center gap-2 mx-auto my-4">
+      <div class=" flex justify-center items-center gap-2 w-110px  ">
+        <img src="images/codicon_workspace-trusted.png" alt="">
+        <h2 class="font-bold text-[#08227A] ">Our services</h2>
+      </div>
+
+    </div>
+    <div class="heading text-[#1032A1] font-bold text-3xl "> Insurance Products</div>
+    <div class="desciption  mx-20 text-lg text-center text-black font-light  "> Comprehensive insurance solutions
+      tailored to your individual and business <br>
+      needs with industry-leading coverage and competitive rates </div>
+    <div class="image_div flex justify-between mx-20 items-center mt-8 mb-12">
+      <div class="image_div flex w-full justify-between flex-wrap gap-4 mx-4 md:mx-20 ov">
+
+        <!-- Image 1 with dot structur-----------e -->
+        <div class="relative w-[376px] h-[471px]">
+          <!-- Main image card -->
+          <div class="relative z-10 w-full h-full rounded-[18px] overflow-hidden">
+            <img src="images/Frame 10.png" alt="Indian Family" class="w-full h-full object-cover" />
+          </div>
+
+          <!-- Dot pattern, absolutely positioned OUTSIDE image area -->
+          <img src="images/Group 31.png" alt="Dot Pattern"
+            class="absolute -bottom-3 -left-6 w-[120px] h-[120px] object-contain z-0 pointer-events-none" />
+        </div>
+
+
+        <!-- Image 2 -->
+        <div class="img_2">
+          <img src="images/Frame 8.png" alt="" class="w-[376px] h-[471px] object-cover rounded-[18px]">
+        </div>
+
+        <!-- Image 3 -->
+        <div class="img_3 relative">
+          <img src="images/Frame 9.png" alt="" class="w-[376px] h-[471px] object-cover rounded-[18px] relative 
+            z-10">
+          <!-- Dot pattern, absolutely positioned OUTSIDE image area -->
+          <img src="images/Group 31.png" alt="Dot Pattern "
+            class="absolute top-[-50px] -right-6 w-[120px] h-[120px] object-contain z-0 pointer-events-none  ">
+          <img src="images/Group 31.png" alt="Dot Pattern "
+            class="absolute top-[1px] right-[-50px] w-[120px] h-[120px] object-contain z-5 pointer-events-none">
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- why chose -->
+  <div class="main_section bg-[#eff0f4] gap-6   flex justify-center  relative">
+    <img src="images/icon-park-solid_connection.png" alt="Arrow"
+      class="absolute top-16  left-[calc(50%-30px)] transform -translate-y-1/2 w-20 z-10 w-72 " />
+
+    <div class="main_cont  bg-white w-[550px]       ">
+      <div class="heading font-bold p-4  text-[#0B33B8] text-3xl ">
+        Why Choose RTF <br> Insurance?
+      </div>
+      <div class="first_part flex justify-center items-center gap-2 p-2">
+        <img src="images/eos-icons_trusted-organization.png" alt="">
+        <div>
+          <h1 class="text-black text-lg font-bold">
+            Expert Guidance
+          </h1>
+          <p>
+            Our certified professionals provide personalized advice
+            tailored to your unique needs.
+          </p>
+        </div>
+
+      </div>
+      <div class="second_part first_part flex justify-center items-center p-2 gap-4">
+        <img src="images/mdi_clock-outline.png" alt="">
+        <div>
+          <h1 class="text-black text-xl font-bold">
+            24/7 Support
+          </h1>
+          <p>
+            Round-the-clock assistance when you need it most, because
+            emergencies don't wait.
+          </p>
+        </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="third_part first_part flex justify-center items-center p-4 gap-4">
+
+
+        <img src="images/charm_shield-tick.png" alt="">
+        <div>
+          <h1 class="text-black text-xl font-bold">
+
+            Trusted Partners
+          </h1>
+          <p>
+            We work with A-rated insurance companies to ensure your
+            claims are paid promptly.
+          </p>
+        </div>
+
+      </div>
+      <div class="fourth_par first_part flex justify-center items-center p-4 gap-4">
+        <img src="images/Group.png" alt="">
+        <div>
+          <h1 class="text-black text-xl font-bold">
+            Simplified Process
+          </h1>
+          <p>
+            From quotes to claims, we've streamlined everything to save
+            you time and hassle
+          </p>
+        </div>
+
+
+      </div>
+
+    </div>
+
+    <!--connectersecton-->
+    <!--side blcok-->
+    <div class="side_con">
+      <div
+        class="w-[300px] h-[250px] mx-5 mt-36 bg-gradient-to-br from-[#eef2ed] to-[#f4f8eb] rounded-lg shadow-md flex flex-col justify-center items-center text-center p-4 ">
+        <img class="mt-2 w-32  h-auto" src="images/codicon_workspace-trusted (1).png" alt="">
+        <h2 class="font-bold text-[#003B9B]"> Your Protection, Our Promise</h2>
+        <p class="text-[#003B9B] mb-12"> Dedicated to Safeguarding whatmatters most to you</p>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+  <!--glimpse-->
+  <div class="main_section flex bg-[#FFE7E7] h-full  justify-evenly    ">
+    <div class="text_section w-1/3 flex flex-col justify-center items-center gap-4 p-8">
+      <h1 class="font-bold text-4xl text-[#003B9B]">
+        Glimpses of our -
+      </h1>
+      <div class="flex gap-3 p-2 m-2">
+        <button class="border-1 bg-[#F1831B] w-full rounded-2xl text-white"> E.B Portal</button>
+        <button class="border-1 bg-[#F1831B] w-full  rounded-2xl text-white"">Employee App</button>
+      </div>
+      <img src=" images/image 10.png" alt="">
+          <img src="images/Group 64.png" alt="">
+          <img src="images/Group 66.png" alt="">
+          <div class="flex  justify-center w-full items-center gap-2 ">
+            <img src="images/Group 67.png" alt="">
+            <img src="images/majesticons_arrow-down.png" alt="">
+            <img src="images/majesticons_arrow-down.png" alt="">
+          </div>
+
+
+      </div>
+
+      <div
+        class=" w-[564px] h-[359px] mt-20 rounded-[18px] bg-[#feb374] opacity-100 rotate-0 w-2/3 flex items-center justify-center">
+        <img class="w-[70%]" src="images/image 15.png" alt="">
+        
+      </div>
+
+    </div>
+
+
+ <!--sub navbar-->   
+ <div class="main_section flex flex-col items-center justify-center bg-[#003B9B] text-white  py-8">
+  <h1 class="text-4xl font-bold">Ready to Get Protected?</h1>
+  <p class="text-md w-96"> Take the first step towards securing your future. Get a personalized 
+insurance quote in just minutes and discover how affordable protection can be 
+ be ></p>
+  <div class="for_btn  flex text-sm justify-center items-center gap-4 mt-6 text-center">
+    
+       <button class="border-1 text-[#003B9B] font-bold p-2 rounded-md text-[#003B9B] bg-[#F7AD46] w-full   ">Get Free Quot </button>
+    
+    <button class="border-1 rounded-md  bg-[#F7AD46] font-bold text-white w-full "> +1 (555)-123-4567</button>
+  </div>
+  <div class="for_icons flex justify-center items-center gap-8 mt-6">
+    <div class="div flex flex-col items-center">
+      <img src="images/mi_call.png" alt="">
+      <h2>
+        Call Us
+      </h2>
+      <p>
+         Available 24/7 for emergencies
+      </p>
+    </div >
+    <div class="div flex flex-col items-center">
+      <img src="images/line-md_email.png" alt="">
+      <h2>
+        Email Us
+      </h2>
+      <p>
+          info@rtfinsurance.combr
+          <br>
+ We’ll respond within 24 hours
+      </p>
+    </div>
+    <div class="div flex flex-col items-center">
+      <img src="images/mdi_address-marker-outline.png" alt="">
+      <h2>
+        Visit Us 
+      </h2>
+      <p>
+        123Insurance Ave ,SUIT <br>
+Monday - Friday, 9AM - 6PM
+      </p>
+     
+    </div>
+  </div>
+ </div>
+
+<!--footer-->
+
+<div class="min-w-full">
+  
+  <img class="w-full" src="images/Frame 2.png" alt="">
+</div>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+.gradient-border::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    #1E3A8A 60%, /* Tailwind's blue-800 */
+    rgba(30, 58, 138, 0.2) 100% /* faded blue */
+  );
+  border-radius: 2px;
+}
